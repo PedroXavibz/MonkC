@@ -1,0 +1,14 @@
+main (argc: int, argv: string[..]): int => {
+  // Variable
+  x:int = 0;
+  y := 3;
+
+  // Array
+  vector2:int[2] = [1, 2];
+  vector3:int[..] = [1, 2, 3];
+
+  // Array function
+  vector3::len();
+
+  return 0;
+}
